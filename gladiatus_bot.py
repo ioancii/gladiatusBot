@@ -469,6 +469,7 @@ def rep(flag, user):
 		print("Wait", cd[0], "seconds...")
 		time.sleep(cd[0])
 
+#allows the user to choose the playing mode
 def choose_mode():
 	global mode
 	global repeat
@@ -492,7 +493,7 @@ def choose_mode():
 		print("Good bye!")
 		driver.quit()
 
-
+#starts the script and saves the player name & level
 def start_app():
 	print("Start time:",time.strftime("%H:%M:%S", time.localtime()))
 	#user log in
